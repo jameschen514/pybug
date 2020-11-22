@@ -20,3 +20,16 @@ Python Essential Reference Third Edition	David M. Beazley	Paperback 2006
 Python Essential Reference Fourth Edition	David M. Beazley	Paperback 2009
 
 You'll need to use the django shell to make it work.
+install pip
+Instruction:
+1.) install python
+2.) install pip
+3.) pip install django==2.2
+4.) select a directory storing the project.  change directory to that location
+5.) $> django-admin startproject pybug .
+6.) $> python manage.py startapp tickets
+7.) add the tickets app files to tickets directory
+8.) check the pybug/settings.py.  update the file to match the repository settings.py file
+9.) check the pybug/urls.py update the file to match the repository urls.py
+10.) the main chunk of the code are in settings.py, urls.py, views.py, forms.py, serializer.py, models.py.
+
