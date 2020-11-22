@@ -33,3 +33,5 @@ Instruction:
 9.) check the pybug/urls.py update the file to match the repository urls.py
 10.) the main chunk of the code are in settings.py, urls.py, views.py, forms.py, serializer.py, models.py.
 
+The default user is set to jchen.  You can change the password or add a new user so the admin panel works.
+
